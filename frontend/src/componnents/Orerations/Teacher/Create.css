@@ -1,0 +1,110 @@
+.createContainer {
+  display: flex;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  flex-direction: column;
+  width: 90%;
+  padding: 0 30px;
+  justify-content: center;
+}
+.labels {
+  margin-top: 15px;
+}
+label {
+  color: crimson;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+.inputs {
+  margin-bottom: 15px;
+}
+
+input {
+  border: 1px solid none;
+  width: 50%;
+  color: rgb(251, 255, 0);
+  padding: 5px;
+  border-radius: 9px;
+  font-size: 20px;
+  background-color: transparent;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.sexInput {
+  margin-left: 0;
+  width: 90px;
+}
+.buttonContainer {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+button {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  width: 200px;
+  padding: 20px 30px;
+  background-color: transparent;
+  color: rgb(240, 15, 15);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  border: none;
+  box-shadow: 1px 1px 5px;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+button:hover {
+  font-size: 31px;
+  color: rgb(0, 255, 21);
+  box-shadow: 1px 1px 9px;
+}
+.showData{
+  margin-left: 20vw;
+  text-align: center;
+}
+.titleContext{
+  color: blue;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 70%;
+}
+.dataContext{
+  text-align: center;
+}
+.titleContext:hover{
+  background-color: rgb(19, 19, 19);
+}
+
+.deleteContener{
+  width: 70%;
+  margin-left: 20vw;
+}
+.deleteContener h2{
+  color: crimson;
+}
+.deleteContener h2:hover{
+  cursor: pointer;
+  color: blue;
+}
+.deleteContener button{
+  width: 200px;
+  padding: 10px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.updateContainer{
+  width: 70%;
+  margin-left: 100px;
+}

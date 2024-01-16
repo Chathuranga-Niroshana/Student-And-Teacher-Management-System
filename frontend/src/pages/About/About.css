@@ -1,0 +1,33 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.aboutContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.aboutContainer p {
+  border: 1px, solid, rgb(13, 248, 72);
+  background: transparent;
+  color: darkorange;
+  padding: 20px;
+  margin-left: 10px;
+  border-radius: 200px;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  box-shadow: 3px 3px 10px rgb(255, 0, 212);
+}
+p:hover {
+  color: rgb(13, 210, 20);
+  box-shadow: 0px 0px 50px blueviolet;
+}
+
+  

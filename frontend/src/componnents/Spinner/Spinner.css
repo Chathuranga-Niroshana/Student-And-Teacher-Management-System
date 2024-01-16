@@ -1,0 +1,16 @@
+@keyframes ping {
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.spinner {
+  width: 16px;
+  height: 16px;
+  margin: 8px;
+  border-radius: 50%;
+  background-color: #3490dc;
+  animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+}

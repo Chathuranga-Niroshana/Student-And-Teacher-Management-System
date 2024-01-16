@@ -1,0 +1,67 @@
+.contactContainer {
+  padding: 30px;
+  margin-left: 40px;
+  width: 80%;
+}
+
+h3 {
+  color: rgb(102, 255, 0);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  cursor: pointer;
+  width: fit-content;
+}
+h4 {
+  line-height: 26px;
+  color: rgb(80, 87, 223);
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: lighter;
+  cursor: pointer;
+  width: fit-content;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(4, 4, 222);
+}
+
+a:hover {
+  color: rgb(18, 221, 214);
+}
+h4:hover{
+  color: aqua;
+}
+h3:hover{
+  color: aquamarine;
+}
+
+.commentArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.commentArea textarea {
+  border: 1px, solid, rgb(13, 248, 72);
+  background: transparent;
+  color: darkorange;
+  padding: 20px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  box-shadow: 3px 3px 10px rgb(255, 0, 212);
+}
+.commentArea button {
+    border: 1px, solid, rgb(13, 248, 72);
+    background: transparent;
+    color: darkorange;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 10px rgb(255, 0, 212);
+  }
+  

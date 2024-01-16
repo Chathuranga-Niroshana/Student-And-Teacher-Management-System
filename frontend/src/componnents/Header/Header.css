@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    30deg,
+    rgb(131, 4, 4),
+    rgb(11, 83, 20),
+    rgb(3, 12, 67)
+  );
+  height: 200px;
+  position: static;
+}
+.header h1 {
+  margin: 40px auto;
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  font-weight: 900;
+  color: black;
+  cursor: pointer;
+  text-shadow: -1px 1px 1px rgb(197, 46, 8);
+}
+.nav {
+  background-color: rgb(12, 12, 12);
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.nav li {
+  font-style: normal;
+  font-size: larger;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  margin: 0;
+  width: 90px;
+}
+.nav li:hover {
+  background-color: rgb(23, 25, 26);
+}
+.nav a:hover {
+  color: rgb(35, 221, 18);
+}
+.header h1:hover{
+  color: black;
+  text-shadow: -3px 3px 5px rgb(71, 77, 2);
+}

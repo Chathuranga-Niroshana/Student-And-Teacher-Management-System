@@ -1,0 +1,54 @@
+table {
+  margin-left: 10%;
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: transparent;
+}
+
+th,
+td {
+  border: 0.1px dotted #b81111;
+  text-align: left;
+  width: 250px;
+  height: 20px;
+  cursor: pointer;
+}
+
+th {
+  padding: 20px;
+  text-align: center;
+  color: #20f409;
+  font-size: 20px;
+}
+td {
+  padding: 10px 15px;
+  color: #bb08ec;
+  
+}
+
+tbody tr:hover {
+  background-color: #0c0b0b;
+}
+
+
+
+
+.operationContainer h1 {
+  font-size: 18px;
+  padding: 0;
+  margin-left: 20px;
+}
+
+ .operationContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 23px;
+}
+td:hover{
+  background-color: #0f0101;
+}

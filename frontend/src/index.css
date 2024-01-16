@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    
+    background-color: #000;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+
+.headDiv{
+    display: flex;
+}
