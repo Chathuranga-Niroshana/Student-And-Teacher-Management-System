@@ -28,7 +28,7 @@ function CreateStudent() {
     };
     setLoading(true);
     axios
-      .post("http://localhost:8000/students", data)
+      .post("http://localhost:8080/students", data)
       .then(() => {
         setLoading(false);
         enqueueSnackbar("Student has created!", { variant: "success" });

@@ -19,7 +19,7 @@ function ShowStudent() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`http://localhost:8000/students/${id}`)
+      .get(`http://localhost:8080/students/${id}`)
       .then((res) => {
         setLoading(false);
         setName(res.data.name);

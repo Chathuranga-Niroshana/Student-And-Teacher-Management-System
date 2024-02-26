@@ -21,7 +21,7 @@ function UpdateTeacher() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`http://localhost:8000/teachers/${id}`)
+      .get(`http://localhost:8080/teachers/${id}`)
       .then((res) => {
         setClases(res.data.clases);
         setEmail(res.data.email);
@@ -50,7 +50,7 @@ function UpdateTeacher() {
       sex,
     };
     axios
-      .put(`http://localhost:8000/teachers/${id}`, data)
+      .put(`http://localhost:8080/teachers/${id}`, data)
       .then(() => {
         setLoading(false);
         enqueueSnackbar("Teacher Updated!", { variant: "success" });

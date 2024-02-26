@@ -14,7 +14,7 @@ function DeleteStudent() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`http://localhost:8000/students/${id}`)
+      .get(`http://localhost:8080/students/${id}`)
       .then((res) => {
         setName(res.data.name);
         setLoading(false);
@@ -29,7 +29,7 @@ function DeleteStudent() {
   const deleteHandle = () => {
     setLoading(true);
     axios
-      .delete(`http://localhost:8000/students/${id}`)
+      .delete(`http://localhost:8080/students/${id}`)
       .then(() => {
         setLoading(false);
         enqueueSnackbar("Student Deleted!", { variant: "success" });

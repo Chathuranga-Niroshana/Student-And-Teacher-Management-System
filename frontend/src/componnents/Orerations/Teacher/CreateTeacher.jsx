@@ -16,7 +16,7 @@ function CreateTeacher() {
 
   const [loading, setLoading] = useState(false);
   const { enqueueSnackbar } = useSnackbar();
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const saveTeacher = () => {
     const data = {
       name,
@@ -29,7 +29,7 @@ function CreateTeacher() {
     };
     setLoading(true);
     axios
-      .post("http://localhost:8000/teachers", data)
+      .post("http://localhost:8080/teachers", data)
       .then(() => {
         setLoading(false);
         enqueueSnackbar("Teacher has Created", { variant: "success" });

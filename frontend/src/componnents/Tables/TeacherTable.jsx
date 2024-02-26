@@ -9,6 +9,7 @@ function TeacherTable({ teachers }) {
           <th>No</th>
           <th>Name</th>
           <th>Class</th>
+          <th>Subject</th>
           <th>Email</th>
           <th>Moble</th>
           <th>Operations</th>
@@ -20,6 +21,7 @@ function TeacherTable({ teachers }) {
             <td>{index + 1}</td>
             <td> {teacher.name} </td>
             <td> {teacher.clases} </td>
+            <td> {teacher.subject} </td>
             <td> {teacher.email} </td>
             <td> {teacher.mobile} </td>
             <td>

@@ -10,8 +10,12 @@ function Home() {
       <div className="contentHome">
         <img src={homeImg} alt="photo" />
         <p className="homeP">
-          This is a website created for an Education Institution to save student and teacher details. We can create, update, view,
-          delete these information.
+          This is a website created for an Education Institution to save student
+          and teacher details. We can create, update, view, delete these
+          information.
+        </p>
+        <p className="homeP">
+          Enter Students & Teachers Information for better handling and keeping thier records with minimal effets. 
         </p>
       </div>
     </div>

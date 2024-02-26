@@ -21,7 +21,7 @@ function ShowTeacher() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`http://localhost:8000/teachers/${id}`)
+      .get(`http://localhost:8080/teachers/${id}`)
       .then((res) => {
         setName(res.data.name);
         setEmail(res.data.email);

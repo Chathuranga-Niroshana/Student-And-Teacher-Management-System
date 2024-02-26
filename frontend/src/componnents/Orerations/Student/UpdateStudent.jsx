@@ -20,7 +20,7 @@ function UpdateStudent() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get(`http://localhost:8000/students/${id}`)
+      .get(`http://localhost:8080/students/${id}`)
       .then((res) => {
         setName(res.data.name);
         setClases(res.data.clases);
@@ -49,7 +49,7 @@ function UpdateStudent() {
     };
     setLoading(true);
     axios
-      .put(`http://localhost:8000/students/${id}`, data)
+      .put(`http://localhost:8080/students/${id}`, data)
       .then(() => {
         setLoading(false);
         enqueueSnackbar("Student Updated!", { variant: "success" });

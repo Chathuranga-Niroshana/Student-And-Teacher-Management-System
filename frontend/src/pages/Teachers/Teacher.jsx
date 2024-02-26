@@ -12,7 +12,7 @@ function Teacher() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get("http://localhost:8000/teachers")
+      .get("http://localhost:8080/teachers")
       .then((res) => {
         setTeachers(res.data);
         setLoading(false);

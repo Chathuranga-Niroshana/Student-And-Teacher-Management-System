@@ -3,7 +3,6 @@ import { PORT, DB_URL } from "./config.js";
 import connectDB from "./connectDB.js";
 import studentRoute from "./routes/studentRoutes.js";
 import teacherRoute from "./routes/teacherRoutes.js";
-import commentRoute from "./routes/commentRoute.js";
 import cors from "cors";
 
 const app = express();

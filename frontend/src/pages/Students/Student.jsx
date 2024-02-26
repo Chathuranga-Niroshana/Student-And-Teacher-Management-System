@@ -11,7 +11,7 @@ function Student() {
   useEffect(() => {
     setLoading(true);
     axios
-      .get("http://localhost:8000/students")
+      .get("http://localhost:8080/students")
       .then((res) => {
         setStudents(res.data);
         setLoading(false);
@@ -26,7 +26,7 @@ function Student() {
       <div className="headDiv">
         <h1>Students</h1>
         <Link to="/students/create">
-        <h1 className="CreateLink">➕</h1>
+          <h1 className="CreateLink">➕</h1>
         </Link>
       </div>
       {loading ? <Spinner /> : <StudentTable students={students} />}
